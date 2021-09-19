@@ -94,7 +94,7 @@ public class Main {
                 if (elem == '.')
                     countFreeSpace += 1;
 
-        boolean poobeda = pobedil("Игрок", 'X') || pobedil("Камплюхтеръ", '0');
+        boolean poobeda = pobedil("Кожаный мешок ", 'X') || pobedil("Адская машина ", '0');
 
         if (countFreeSpace == 0) {
             System.out.println("Ничья");
